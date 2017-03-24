@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/listData.js"></script>
+</head>
+<body>
+<!--头部-->
+<div id="header"></div>
+<!--body-->
+<div class="body">
+    <div class="body1 nav clear">
+        <div class="zhu2" style="margin-top: 126px;height: 100px;width: 210px;">
+            <p><strong>小鸟动态</strong></p>
+            <p class="zhu2_p1" style="margin-left: 10px;">About Company</p>
+            <p class="zhu2_p"></p>
+        </div>
+        <div class="body_list">
+            <h3>列表</h3>
+            <!--<img src="image/pen_line_long.png" alt="">-->
+            <em class="body_jl body_em"></em>
+        </div>
+        <div class="body_li clear" id="articleList">
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                   <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+            <div class="body_li1">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="image/list_img01.jpg" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">桂林三境重装出发</a>
+                    <p style="font-size: 10px;">2016-02-03</p>
+                    <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>
+        </div>
+        <!--模板-->
+        <div id="itemHtml" style="display: none">
+            <div class="body_li1" articleid="$articleId$">
+                <img src="image/list_img_over_xiaojiantou.png" alt="" class="body_jiantou">
+                <img src="$articleCover$" alt="" class="body_img">
+                <div class="body_ul">
+                    <a href="#">$articleTitle$</a>
+                    <p style="font-size: 10px;">$updateTime$</p>
+                    <p>$describe$</p>
+                </div>
+            </div>
+        </div>
+        <div class="body_chakan clear">
+            <img src="image/list_gomore_bg.jpg" alt="">
+            <em class="body_jl1 body_em1"></em>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div id="footer"></div>
+<!--返回顶部-->
+<div id="fan">
+    <div class="fan1">
+        <em class="fan_jl fan_em"></em>
+    </div>
+    <div class="fan2">
+        <em class="fan2_jl fan2_em"></em>
+        <em class="fan2_jl fan2_em1"></em>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!--<script src="js/jquery-1.8.3.min.js"></script>-->
+    <script>
+    $(function () {
+        var count=0;
+    $(".footer3 li").click(function () {
+        var om="";
+       var index=$(this).index();
+        if(navigator.appName=="Microsoft Internet Explorer"){     /*ie*/
+            om=$('<bgsound class="remove-music'+count+'" src="music/sound0'+index+'.mp3" autostart="true" loop="false"></bgsound>')
+            $("body").append(om);
+        }else if(navigator.userAgent.toLowerCase().indexOf("firefox")!=-1){        //火狐
+            om=$('<object class="remove-music'+count+'" data="music/sound0'+index+'.mp3" type="application/x-mplayer2" width="0" height="0"><param name="autostart" value="1"><param name="playcount" value="infinite"></object>')
+            $("body").append(om);
+        }
+        else {        //谷歌
+            om=$('<embed class="remove-music'+count+'" src="music/sound0'+index+'.mp3" '+'autostart="ture" loop="false" width="0" height="0" >')
+            $("body").append(om);
+        }
+        setTimeout(function () {
+           om.remove();
+        },3000)/*3秒就会消失*/
+    })
+    })
+
+    </script>
+</head>
+<body>
+<!--<bgsound src="music/sound00.mp3" autostart="true" loop="false"></bgsound>--><!--ie-->
+<!--<embed src="music/sound00.mp3" type="">-->
+<div class="footer">
+    <img src="image/map_bottomimg.png" alt="" class="footer_img">
+    <div class="footer1">
+        <div class="footer2 nav clear">
+            <div class="footer3">
+                <ul style="margin-left: 277px;">
+                    <li class="footer_jl1 footer_em1"></li>
+                    <li class="footer_jl2 footer_em1"></li>
+                    <li class="footer_jl3 footer_em1"></li>
+                    <li class="footer_jl4 footer_em1"></li>
+                    <li class="footer_jl5 footer_em1"></li>
+                    <li class="footer_jl6 footer_em1"></li>
+                    <li class="footer_jl7 footer_em1"></li>
+                </ul>
+            </div>
+            <div class="footer4">
+                蜀ICP备16002451号
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

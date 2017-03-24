@@ -1,0 +1,28 @@
+.footer{height: 382px;}
+.footer2{}
+.footer_img{width: 100%;margin: 0 auto;height: 33px;display: block;max-width: 1920px;}
+.footer1{height: 349px;background: url("../image/yinyue_bg.jpg")no-repeat center;margin-top: -1px;}
+.footer3{height: 258px;border-bottom: 1px dashed #9890a2}
+
+.footer_jl1{background: url("../image/yinyue_duo.png")no-repeat;display: block}
+.footer_em1{width: 57px;height: 57px;background-position: 0 0}
+.footer_em1:hover{width: 57px;height: 57px;background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;}
+.footer_jl2{background: url("../image/yinyue_lai.png")no-repeat;display: block}
+.footer_em2{width: 57px;height: 57px;background-position: 0 0}
+.footer_em2:hover{width: 57px;height: 57px;background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;}
+.footer_jl3{background: url("../image/yinyue_mi.png")no-repeat;display: block}
+.footer_jl4{background: url("../image/yinyue_fa.png")no-repeat;display: block}
+.footer_jl5{background: url("../image/yinyue_suo.png")no-repeat;display: block}
+.footer_jl6{background: url("../image/yinyue_la.png")no-repeat;display: block}
+.footer_jl7{background: url("../image/yinyue_xi.png")no-repeat;display: block}
+.footer3 li{float: left;margin-right: 26px;margin-top: 116px;  }
+@keyframes banner_lr {
+    from{transform: scale(1,1)}
+    25%{transform: scale(1.1,0.9)}
+    50%{transform: scale(1,1)}
+    75%{transform: scale(0.9,1.1)}
+    to{transform: scale(1,1)}
+}
+.footer4{height: 84px;text-align: center;line-height: 84px;font-size: 13px;color: white}

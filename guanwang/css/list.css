@@ -1,0 +1,25 @@
+.body{/*height: 2895px;*/}
+.body1{}
+.body_list{height: 60px;font-size: 26px;color: #311759;position: relative;background: url("../image/pen_line_long.png")no-repeat 0 bottom}
+h3{width: 1000px;height: 50px;}
+.body_jl{background: url("../image/pen_list.png")no-repeat;display: block}
+.body_em{width: 58px;height: 54px;background-position: -2px 0;position: absolute;bottom: 0;right: 0}
+.body_em:hover{width: 58px;height: 54px;background-position: -64px 0;}
+.body_li{/*height: 2190px;*/padding-top: 40px;}
+.body_li1{width: 536px;height: 204px;background: #ffffff;float: left;margin-bottom: 30px;margin-right: 20px;padding-top: 37px;border: 1px solid transparent;position: relative}
+.body_img{float: left;margin-left: 20px;}
+.body_ul{width: 210px;height: 148px;float: left;margin-left: 16px;color: #47464a;padding-top: 20px;}
+.body_ul p{font-size: 14px;line-height: 25px;}
+.body_ul a{font-size: 17px;color: #47464a;margin-bottom: 5px;}
+
+
+.body_chakan{height: 377px;margin-top: 20px;}
+.body_chakan img,em{margin: 0 auto;display: block}
+.body_jl1{background: url("../image/lis_more_btn_bg.png")no-repeat;display: block}
+.body_em1{width: 58px;height: 58px;background-position: 0 -58px;margin-top: 16px;transition: all 1s}
+.body_em1:hover{width: 58px;height: 58px;background-position: 0 0px;margin-top: 16px;transition: all 1s}
+
+/*小箭头*/
+.body_jiantou{position: absolute;top:37px;left: 0}
+
+

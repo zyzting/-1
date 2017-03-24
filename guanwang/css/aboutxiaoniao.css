@@ -1,0 +1,102 @@
+.head{width: 100%;height: 50px;background: url("../image/aboutxiaoniao/beader_bg.jpg")no-repeat center;}
+.head1{}
+.head_img{float: left}
+.head_ul{float: left;margin-left: 55px;height: 50px;line-height: 50px;}
+.head_ul li{float: left;margin-right: 30px;background: url("../image/nav_now_bg.png")no-repeat -20px 0;}
+.head_ul a{font-size: 14px;color: #97abb6}
+.head_ul li:hover{background: url("../image/nav_now_bg.png")no-repeat 50% 80%;transition: all 1s}
+.head_ul .head_active{background: url("../image/nav_now_bg.png")no-repeat 50% 80%;}
+.head_active a{color: white}
+.main_warp{overflow: hidden;position: relative}
+.main_slide{position: absolute}
+.head_ul .now{background: url("../image/nav_now_bg.png")no-repeat 50% 80%;}
+.head_ul .now a{color: white}
+/*概述*/
+.warp_block{background: #221236}
+.warp_img{margin: 0 auto;width: 400px;height: 401px;display: block;}
+.warp_xiao{width: 160px;height: 65px;margin: 0 auto}
+.warp_xiao p{font-size: 35px;color: #ffffff}
+.warp_xue{width: 490px;height: 50px;margin: 0 auto;background: url("../image/aboutxiaoniao/yinhao1_zuo.png")no-repeat top left;
+    position: relative;padding-top: 15px;}
+.warp_xue1{position:absolute;width: 20px;background: url("../image/aboutxiaoniao/yinhao1_you.png")no-repeat;height: 18px;bottom: 0;right: 0;}
+.warp_xue p{font-size: 44px;color: #ffffff;margin-left: 40px;}
+.warp_block1>p{text-align: center;font-size: 16px;color:white;text-align: center;}
+.warp_block_jl{background: url("../image/aboutxiaoniao/donext.png")no-repeat;display: block}
+.warp_em{width: 58px;height: 58px;background-position: 0 -58px;margin: 0 auto;transition: all 1s}
+.warp_em:hover{width: 58px;height: 58px;background-position: 0 0px;margin: 0 auto;transition: all 1s}
+/*lunbo*/
+.warp_block2{background: white;position: relative}
+.qiyuan{width: 694px;height: 68px;position: relative;margin: 0 auto;padding-top: 20px;margin-bottom: 27px;}
+.qiyuan .img1{position: absolute;top: 0;left: 0}
+.qiyuan .img2{position: absolute;bottom: 0;right: 0}
+.qiyuan>p{text-align: center;margin-left: 33px;color: #727177;letter-spacing: 2px;font-size: 16px;}
+
+/*概述 轮播*/
+.warp_banner{position: relative;width: 866px;margin: 0 auto;overflow: hidden}
+.warp_lun{width: 2598px;position: absolute;}
+.gaishu_warp{width: 866px;float: left;}
+.gaishu_warp>p{font-size: 48px;color: #3b2669;text-align: center}
+.gaishu_warp ul{margin: 0 auto}
+.gaishu_warp ul li{float: left;margin-right: 34px;}
+.gaishu_jl{background: url("../image/aboutxiaoniao/goleft.png")no-repeat;display: block}
+.gaishu_zuo{width: 58px;height: 58px;background-position: 0 0;position: absolute;left: 58px;top: 50%;margin-top: -29px;}
+.gaishu_jl1{background: url("../image/aboutxiaoniao/goright.png")no-repeat;display: block}
+.gaishu_you{width: 58px;height: 58px;background-position: -58px 0px;position: absolute;right: 58px;top: 50%;margin-top: -29px;}
+
+
+.gaishu_zuo:hover{width: 58px;height: 58px;background-position: -58px 0;position: absolute;left: 58px;top: 50%;
+    margin-top: -29px;}
+.gaishu_you:hover{width: 58px;height: 58px;background-position: 0 0;position: absolute;right: 58px;top: 50%;margin-top: -29px;}
+/*页面二*/
+.gaishu_img{width: 502px;height: 38px;margin: 0 auto;display: block;padding-top: 25px;margin-bottom: 50px;}
+.gaishu_yuan{}
+.gaishu_yuan1{width: 866px;margin-bottom: 50px;height: 99px;}
+.gaishu_img1{width: 98px;height: 99px;float: left}
+.gaishu_right{float: right;width: 713px;height: 74px;padding-top: 25px;}
+.gaishu_right>p{font-size: 16px;color: #6b6a6f}
+
+/*模块三*/
+.gaishu_warp>.mokuai3_p{font-size: 17px;color: #6a6a6e;margin-bottom: 90px;}
+.mokuai3_img{width: 104px;height: 170px;margin: 0 auto;display: block}
+
+/*对企业的价值*/
+.warp_block3{background: #221236;}
+.warp_block3>p{font-size: 42px;color: #ffffff;text-align: center;margin-bottom: 112px;padding-top: 35px;}
+.jiazhi{width: 972px;height: 348px;margin: 0 auto;position: relative;padding-top: 30px;}
+.jiazhi .img1,.img11{position: absolute;top: 0;left: 0}
+.jiazhi .img2,.img22{position: absolute;top: 0;right: 0}
+.jiazhi .img3,.img33{position: absolute;bottom: 0;left: 0}
+.jiazhi .img4,.img44{position: absolute;bottom: 0;right: 0}
+.jiazhi1{width: 373px;height: 74px;float: left;margin-left: 60px;}
+.jiazhi1_img{background: url("../image/aboutxiaoniao/jiazhi_quanquan.png")no-repeat center;width: 74px;
+    height: 74px;float: left;text-align: center;line-height: 74px;font-size: 11px;color: #f4ffd0}
+.jiazhi_zi{font-size: 15px;color: #ffeac4;width: 270px;height: 56px;margin-left: 29px;padding-top: 18px;float: left}
+.jiazhi .img11,.img22,.img33,.img44{animation: huxideng 0.5s linear infinite alternate }/*次数  往返*/
+@keyframes huxideng {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*小鸟掌云*/
+.warp_block4{background: #f1f3f7}
+.warp_block4>p{font-size: 42px;color: #301658;text-align: center;margin-bottom: 32px;padding-top: 35px;font-weight: 600}
+.yun{width: 910px;height: 430px;margin: 0 auto;position: relative;}
+.yun1{height: 376px;position: absolute;display: none}
+.yun1 li{height: 35px;border-bottom: 1px dashed #a3a5a7;font-size: 16px;color: #525254;line-height: 35px;}
+.yun_jl{background: url("../image/aboutxiaoniao/xiaoniaoyun_btn.png")no-repeat;display: block}
+.yun_em1{width: 78px;height: 8px;background-position: 0 -8px;position: absolute;bottom: 0;left: 365px;}
+.yun_em2{width: 78px;height: 8px;background-position: 0 -8px;position: absolute;bottom: 0;left: 467px;}
+.yun_active{width: 78px;height: 8px;background-position: 0 0px;}
+
+/*动态页面*/
+.shuaxin{width: 100%;background: #289bd7;position: absolute;top: 0;left: 0;z-index: 999;
+    padding-top: 50px;/*display: none*/}
+body{position: relative}
+.shuaxin_animate{position: absolute;bottom: 93px;left: 50%;margin-left: -250px;}
+.xin{display: none;}
+.shuaxin_img{display: block;position: absolute;left: 50%;margin-left: -200px;top: 50%;margin-top: -200px;}
+.shuaxin_animate>p{font-size: 16px;color:white;text-align: center;}

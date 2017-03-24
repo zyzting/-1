@@ -1,0 +1,12 @@
+.bird{width: 100%;}
+.bird1{background: #ffffff}
+.bird2{height: 150px;background: url("../image/pen_line_long.png")no-repeat 0 40px;width: 780px;margin: 0 auto}
+.bird2>p{font-size: 13px;color: #616161}
+.bird3{width: 780px;margin: 0 auto}
+.bird4{}
+.bird4 p{font-size: 13px;color: #17181a;letter-spacing: 2px;line-height: 16px;}
+.bird_jl{background: url("../image/article_iflike.png")no-repeat;display: block}
+.xin{width: 73px;height: 73px;background: url("../image/article_iflike.png")no-repeat 0 0;margin: 82px auto;position: relative}
+.xin>p{background: url("../image/article_iflike_nomberbg.png")no-repeat;position: absolute;left: 80px;top: 20px;width: 0px;height: 35px;}
+/*.xin0{position: relative}*/
+.kuang{width: 200px;height: 70px;background: seashell;position: absolute;top: 370px;left: -40px;opacity: 0;text-align: center;line-height: 70px;font-size: 20px;}

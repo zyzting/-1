@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;}
+body{font-family:"华文楷体","宋体";font-size: 15px;background: #f1f2f6}
+a{text-decoration: none;cursor: pointer}
+ul li{list-style: none}
+img{border: none 0;}
+.clear:before,.clear:after{display:table;content:"";}
+.clear:after{clear:both;}
+.clear{zoom:1;}
+
+
+
+.nav{width: 1100px;margin: 0 auto}
+
+.zhu_img{width: 58px;height: 58px;margin: 0 auto;display: block;margin-bottom: 66px;}
+/*模块*/
+.zhu2{height: 175px;width: 177px;margin: 0 auto;font-size: 43px;color: #311759}
+.zhu2 .zhu2_p1{font-size: 13px;color: #311759;margin-left: 36px;letter-spacing: 5px;font-weight: 600}
+.zhu2 .zhu2_p{background: url("../image/three_points01.png")no-repeat;width: 37px;height: 8px;margin-left: 72px;margin-top: 11px;}
+
+
+
+
+/*返回顶部*/
+#fan{height: 200px;position: fixed;top: 400px;right: 0;width: 235px;display: none}
+.fan1{width: 50px;height: 50px;float: right;margin-right: 20px;}
+.fan_jl{background: url("../image/scroll_top_bg.png")no-repeat;display: block}
+.fan_em{width: 50px;height: 50px;background-position: 0 0;transition: all 1s}/*过渡时间*/
+.fan_em:hover{width: 50px;height: 50px;background-position: 0 -50px;transition: all 1s}
+.fan2_jl{background: url("../image/fixed_contactus.png")no-repeat;display: block}
+.fan2_em{width: 0px;height: 35px;background-position: 0 -26px;position: absolute;top: 100px;left: 0;transition: all 1s}
+.fan2_em1{width: 87px;height: 87px;background-position: -148px 0;top: 70px;right: 0;position: absolute;}

@@ -1,0 +1,17 @@
+.header{height: 120px;background: url("../image/yinyue_bg.jpg")no-repeat center;width: 100%}
+.header1{}
+.header1 .header_img{margin-left: 18px;float: left}
+.header1 .header2{line-height: 120px;float: right;}
+.header2>li{float: left;margin-right: 30px;}
+/*.header2 img{vertical-align: middle;margin-left: 8px;}*/
+.header2 a{font-size: 14px;color: #ffffff}
+.header2>li:hover{background: url("../image/nav_now_bg.png")no-repeat 30px 75px;}
+.header2 .header_li{background: url("../image/nav_now_bg.png")no-repeat 12px 75px;}
+.header2 .header_li:hover{background: url("../image/nav_now_bg.png")no-repeat 12px 75px;}
+.header_li1{position: relative;}
+.header3{position: absolute;background: #342448;width: 180px;top:85px;left: -22px;display: none}
+.header3 li{height: 40px;line-height: 40px;padding-left: 12px;transition: padding-left 1s}
+.header3 li:hover{background: url("../image/nav_li_bg.png")no-repeat 90% 50% skyblue;padding-left: 25px;transition: padding-left 1s}
+.header1 em{width: 25px;height: 25px;display: inline-block;background: url("../image/nav_xiajiantou.png")no-repeat center;vertical-align: middle}
+.header1 em:hover{width: 25px;height: 25px;display: inline-block;background: url("../image/nav_xiajiantou_hover.png")no-repeat center;vertical-align: middle}
+
